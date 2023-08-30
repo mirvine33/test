@@ -3,5 +3,5 @@ FROM python:3.10
 
 WORKDIR /app
 
-RUN apt-get update && \
+RUN apt-get update
 RUN pip install --no-cache-dir numpy 
